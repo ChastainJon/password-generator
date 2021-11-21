@@ -67,7 +67,7 @@ function generatePassword(){
     charNum = getRandomInt(passwordChars.length);
     password = password + passwordChars[charNum];
   }
-  console.log(password);
+  return password;
 }
 
 function getLength(){
